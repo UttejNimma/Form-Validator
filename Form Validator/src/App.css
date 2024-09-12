@@ -1,0 +1,109 @@
+/* Wrapper Styling */
+.container-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+
+/* Success Message Styling */
+.ui.message.success {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  width: 400px; /* Matches the form container's width */
+}
+
+/* Form Container Styling */
+.container {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
+/* Form Title Styling */
+h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-align: center;
+  color: #333333;
+}
+
+/* Field Container Styling */
+.feild {
+  margin-bottom: 20px;
+}
+
+/* Label Styling */
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #555555;
+}
+
+/* Input Field Styling */
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #333333;
+}
+
+/* Placeholder Styling */
+input::placeholder {
+  color: #aaaaaa;
+}
+
+/* Error Message Styling */
+p {
+  color: red;
+  margin-top: -10px;
+  font-size: 14px;
+}
+
+/* Button Styling */
+button {
+  width: 100%;
+  padding: 10px;
+  margin: 5px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+#clear{
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    background-color: #e61515;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+#clear:hover{
+  background-color: #c10e0e;
+}
